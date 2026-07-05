@@ -1,0 +1,43 @@
+% =====================================================================
+% Systolic Array Multiplier — Design Report Placeholder
+% =====================================================================
+% Replace this file with your actual synthesis/timing report generated
+% from Vivado, Quartus, or Synopsys Design Compiler after P&R.
+%
+% Typical report sections to include:
+%   1. Resource Utilisation (LUT, FF, DSP, BRAM counts)
+%   2. Timing Summary (WNS, TNS, WHS, THS, clock period)
+%   3. Power Estimate (dynamic + static power)
+%   4. Critical Path Analysis
+%   5. Area Report (cell count, net count)
+%
+% =====================================================================
+%
+% EXAMPLE (Xilinx Vivado - post-implementation):
+%
+% Design Utilization Summary
+% --------------------------
+% +---------------------------+------+-------+-----------+-------+
+% |          Site Type        | Used | Fixed | Available | Util% |
+% +---------------------------+------+-------+-----------+-------+
+% | Slice LUTs                |  512 |     0 |     53200 |  0.96 |
+% | Slice Registers           |  320 |     0 |    106400 |  0.30 |
+% | F7 Muxes                  |    0 |     0 |     26600 |  0.00 |
+% | F8 Muxes                  |    0 |     0 |     13300 |  0.00 |
+% | Bonded IOB                |   35 |     0 |       200 | 17.50 |
+% +---------------------------+------+-------+-----------+-------+
+%
+% Timing Summary (Target: 100 MHz / 10 ns)
+% -----------------------------------------
+%   Worst Negative Slack (WNS)  :  +2.31 ns
+%   Total Negative Slack (TNS)  :   0.00 ns
+%   Worst Hold Slack  (WHS)     :  +0.15 ns
+%   Total Hold Slack  (THS)     :   0.00 ns
+%
+% Power Estimate
+% --------------
+%   On-Chip Power: 42 mW
+%   Dynamic:       38 mW
+%   Static:         4 mW
+%
+% =====================================================================

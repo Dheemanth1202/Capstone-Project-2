@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer — Systolic Array Multiplier Waveform
+[*] Signal layout matches "8. SIMULATION WAVEFORM (SAMPLE)" style
+[*]
+[dumpfile] "sim/waveform.vcd"
+[savefile] "sim/waveform.gtkw"
+[timestart] 0
+[size] 1280 520
+[pos] -1 -1
+*-24.000000 50000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] systolic_tb.
+[sst_width] 250
+[signals_width] 180
+[sst_expanded] 1
+[sst_vpaned_height] 250
+@28
+systolic_tb.clk
+@28
+systolic_tb.rst_n
+@28
+systolic_tb.start
+@22
+systolic_tb.A[7:0]
+@22
+systolic_tb.B[7:0]
+@22
+systolic_tb.P[15:0]
+@28
+systolic_tb.valid
+[pattern_trace] 1
+[pattern_trace] 0
+[end]

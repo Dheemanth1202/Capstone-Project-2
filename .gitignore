@@ -1,0 +1,13 @@
+# Simulator temporary binaries/outputs
+*.vvp
+*.log
+work/
+transcript
+
+# Waveform files (optional to ignore, but we keep VCD in sim/ for waveforms)
+# if you want to ignore all vcd files, uncomment:
+# *.vcd
+
+# OS generated files
+.DS_Store
+Thumbs.db
